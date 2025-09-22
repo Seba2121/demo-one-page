@@ -11,7 +11,7 @@
     section { padding: 80px 0; }
     header {
         position: relative;
-        background: url("pictures/stock3.jpg") no-repeat center 35%;
+        background: url("pictures/nuevo.png") no-repeat center 100%;
         background-size: cover;
         background-attachment: fixed; /* opcional: efecto parallax */
         color: white;
@@ -35,18 +35,20 @@
     }
 
     .small-title {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 900;
-    color:  #022a67;  /* azul bootstrap */
+    color: #022a67;  /* azul bootstrap */
     letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(255,255,255,0.8);
     }
 
     .big-title {
-    font-size: 6rem;
+    font-size: 8rem;
     font-weight: 900;
-    color: #022a67; /* azul más fuerte */
+    color: #022a67;
     text-transform: uppercase;
-    }
+    text-shadow: 2px 2px 5px rgba(255,255,255,0.7); /* sombra oscura difusa */
+  }
 
     .sub-title {
     font-size: 2rem;
@@ -58,7 +60,7 @@
     content: "";
     position: absolute;
     inset: 0; /* top:0; right:0; bottom:0; left:0 */
-    background: rgba(0, 0, 0, 0.3); /* negro con 50% transparencia */
+    background: rgba(0, 0, 0, 0.5); /* negro con 50% transparencia */
     z-index: 1;
     }
 
@@ -108,7 +110,7 @@
   <header id="inicio">
     <div class="container">
       <div class="hero-title text-center">
-        <span class="small-title" style="margin-bottom: -30px;">CONSTRUCTORA</span>
+        <span class="small-title" style="margin-bottom: -30px;margin-top: 50px;">CONSTRUCTORA</span>
         <span class="big-title">SOTESCO</span>
         <span class="sub-title" style="margin-top: -20px;">INGENIERÍA</span>
     </div>
@@ -123,7 +125,7 @@
     <!-- Bloque Quienes Somos -->
     <div class="row align-items-center mb-5">
       <div class="col-md-6">
-        <h2>Quienes somos</h2>
+        <h2>Quiénes somos</h2>
         <p>
           En Sotesco somos especialistas en construcción, mantención, y remodelación inmobiliaria, ofreciendo soluciones eficientes, modernas 
           y de alta calidad para cada proyecto.
@@ -182,10 +184,14 @@
     <!-- WhatsApp -->
     <p class="mb-4" style="margin-top: -20px;">
       <i class="bi bi-whatsapp"></i> 
-      +56963709266 / +56973316155
+      +56 9 3351 7268
     </p>
 
-    <a href="mailto:constructorasotesco@gmail.com" class="btn btn-primary btn-lg">Escríbenos</a>
+    <a href="https://wa.me/56933517268" target="_blank" 
+      class="btn btn-lg text-white" 
+      style="background-color: #25D366; border-color: #25D366;">
+      <i class="bi bi-whatsapp"></i> Escríbenos
+    </a>
   </div>
 </section>
 
