@@ -35,27 +35,26 @@
     }
 
     .small-title {
-    font-size: 3rem;
+    font-size: clamp(1.2rem, 4vw, 3rem);  /* mínimo, adaptable, máximo */
     font-weight: 900;
-    color: #022a67;  /* azul bootstrap */
-    letter-spacing: 1px;
+    color: #022a67;
     text-shadow: 2px 2px 5px rgba(255,255,255,0.8);
-    }
+  }
 
-    .big-title {
-    font-size: 8rem;
+  .big-title {
+    font-size: clamp(2.5rem, 12vw, 8rem);
     font-weight: 900;
     color: #022a67;
     text-transform: uppercase;
-    text-shadow: 2px 2px 5px rgba(255,255,255,0.7); /* sombra oscura difusa */
+    text-shadow: 2px 2px 5px rgba(255,255,255,0.7);
   }
 
-    .sub-title {
-    font-size: 2rem;
+  .sub-title {
+    font-size: clamp(1rem, 5vw, 2rem);
     font-weight: 400;
-    color: #e5e7ea; /* gris */
+    color: #e5e7ea;
     letter-spacing: 3px;
-    }
+  }
     header::before {
     content: "";
     position: absolute;
@@ -149,7 +148,7 @@
         </ul>
       </div>
       <div class="col-md-6">
-        <img src="pictures/stock4.png" alt="Imagen demo" class="img-fluid rounded shadow mb-3" style="width: 340px;">
+        <img src="pictures/fotorefe.jpg" alt="Imagen demo" class="img-fluid rounded shadow mb-3" style="width: 340px;">
       </div>
     </div>
 
